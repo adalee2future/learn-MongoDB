@@ -1,0 +1,4 @@
+var ada = {name: 'Ada', age: 23, gender: 'F'}
+
+db.scores.save({a: 99})
+db.scores.save(ada)

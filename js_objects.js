@@ -1,1 +1,0 @@
-var ada = {name: 'Ada', age: 23, gender: 'F'}
