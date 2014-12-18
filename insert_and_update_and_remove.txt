@@ -8,7 +8,7 @@ db.users.find()
 // update Johnny's names and languages
 db.users.update({name: 'Johnny'}, {name: 'Cash', languages: ['English']})
 
-// update Sue's languages without overweiting them
+// update Sue's languages without overwriting them
 db.users.update({name: 'Sue'}, {$addToSet: {languages: 'ruby'}})
 
 // add a new field to Cash

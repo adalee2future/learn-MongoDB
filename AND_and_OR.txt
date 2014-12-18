@@ -1,0 +1,16 @@
+use test
+db.students.find(
+    {
+        $or:[
+            {name: "Ada"}, {gender: "Male"}
+            ]
+    }
+).pretty()
+
+db.students.find(
+    {
+        $or:[
+            {name: "Mike"}, {gender: "Male"}
+            ]
+    }
+).pretty()

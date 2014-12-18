@@ -1,0 +1,3 @@
+// display the results in a formatted way, you can use pretty() method.
+use test
+db.students.find().pretty()

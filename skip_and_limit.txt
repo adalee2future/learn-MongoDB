@@ -1,0 +1,2 @@
+db.students.find().skip(1)
+db.students.find().limit(2)

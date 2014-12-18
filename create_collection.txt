@@ -1,0 +1,10 @@
+use test
+db.createCollection("my_collection")
+show collections
+
+db.createCollection("my_col", {capped: true, autoIndexID: true, size: 6142800, max: 10000})
+
+// In mongodb you don't need to create collection. 
+// MongoDB creates collection automatically, 
+// when you insert some document.
+db.students.insert({name: "Ada"})
