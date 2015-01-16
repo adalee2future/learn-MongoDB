@@ -1,2 +1,0 @@
-use test
-db.students.insert([{name: "Ada"}, {name: "Bob"}, {name: "Mike", gender: "Male"}])

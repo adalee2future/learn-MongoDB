@@ -1,4 +1,0 @@
-use test
-show collections
-db.students.drop()
-db.students.drop()

@@ -1,4 +1,0 @@
-use mydb
-show dbs
-db.movie.insert({"name": "tutorial point"})
-show dbs

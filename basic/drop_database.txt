@@ -1,4 +1,0 @@
-show dbs
-use mydb
-db.dropDatabase()
-show dbs
