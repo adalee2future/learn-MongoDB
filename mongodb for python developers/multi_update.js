@@ -15,4 +15,4 @@ db.people.find()
 // { "_id" : ObjectId("54bb26e7180041a0d4bb1b86"), "name" : "George", "age" : 40 }
 
 // update all
-db.people.update( { }, { $set : { title : "Dr"} }, { multi : true } 
+db.people.update( { }, { $set : { title : "Dr"} }, { multi : true } )
