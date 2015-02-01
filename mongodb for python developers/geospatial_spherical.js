@@ -53,3 +53,15 @@ db.places.find().pretty()
 //}
 
 db.places.ensureIndex({location: '2dsphere'})
+
+db.places.find({
+    location: {
+        $near: {
+            $geometry: {
+                type: "Point",
+                coordinates: [-122.66641, 37.4278925]},
+            $maxDistance: 2000
+        }
+    }
+}).pretty()
+
