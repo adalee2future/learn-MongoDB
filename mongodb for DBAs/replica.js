@@ -21,3 +21,10 @@ cfg = {
 rs.initiate(cfg)
 
 rs.status()
+
+// open new terminal
+mongo --port 27002
+// open new terminal
+mongo --port 27003
+
+rs.conf()
